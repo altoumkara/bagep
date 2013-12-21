@@ -1,0 +1,118 @@
+@mixin box_sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+
+.volunatary_top_pic{
+	width: 500px;
+	height: 200px;
+  margin-left: 145px;
+  margin-top: 25px;
+
+	h3{ margin-top:-230px;
+  margin-left: -175px;
+  color: #99501F;}
+
+}
+
+
+.voluntary_left_column{
+width: 455px;
+  height:500px;
+ margin-left:-55px;
+ margin-top:30px;
+  p{text-align:left;}
+ 
+	.voluntary_left_pic{
+  		width: 220px;
+  		height: 220px;
+ 	}
+ 	.voluntary_right_pic{
+ 	  width: 220px;
+  	  height: 220px;
+ 	}
+
+ 	h5{margin-left:-100px;}
+}
+
+#header_voluntary{margin-left:-500px;}
+
+.for_school_admin{
+	width:450px;
+	height: auto;
+	margin-left:15px;
+}
+
+/*.for_others_volunteers{
+	width:450px;
+	height: 200px;
+	margin-left:15px;
+	margin-top:10px;
+}
+
+.voluntary_group{
+border: 1px solid black;
+height:310px;
+margin-top: 150px;
+margin-bottom: 49px;
+
+}
+*/
+
+.please_text{
+margin-top:450px;
+
+width: 600px;
+p{text-align:left;}
+}
+
+
+
+  
+
+
+/* form*/
+
+.edit_post{width: 1000px;
+ border: 1px solid orange;
+ ul{color:red;}
+ }
+
+#edit_post_45{
+height:450px;
+width:560px;
+.btn_send{margin-top:10px;
+margin-left:-75px;}
+
+}
+
+label{ 
+    text-align: left;
+    font-weight: bold;
+  	margin-bottom: -40px;
+  	margin-left:10px;
+}
+
+  
+input, textarea, select, .uneditable-input {
+    border: 1px solid #bbb;
+    margin-left:-20px;
+    width: 400px;
+    height: 250px;
+   
+    margin-bottom: 0px;
+    @include box_sizing;
+}
+  
+
+input {
+ height: auto !important;
+ width:250px; 
+ margin-left:-170px;
+} 
+
+
+
+

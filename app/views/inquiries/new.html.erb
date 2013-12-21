@@ -1,0 +1,90 @@
+<% provide(:title, 'Volantary') %>
+
+<div class="center hero-unit">
+  <div class="inline_center">
+
+		<div class="slidepic volunatary_top_pic">
+
+      		<%= image_tag("volunteer1111.jpg", alt: "volunteer", :id => "auto_resizeimage") %>
+			<h3>BECOME A ROLE MODEL TODAY<br>
+				AND LEAVE YOUR LEGACY IN THE WORLD
+			</h3>
+		</div>
+
+		<div class="headline">
+     	 <h1><%= link_to "Activities << ", activitiesandvolunteer_path %>Voluntary</h1>
+  	  </div>
+
+		<br><h4 id="header_voluntary">VOLUNTARY PROGRAM</h4>
+
+
+   <div class="voluntary_left_column">
+
+   		<div class="group_story_element_box">
+
+       		<div class="inside_div_pic image_for_box voluntary_left_pic">
+        		<%= image_tag("DSCF2513.png", alt: "africans", :id => "auto_resizeimage")  %>
+       		</div>
+       		<div class="inside_div_pic image_for_box voluntary_right_pic">
+        		<%= image_tag("DSCF2529.png", alt: "africans", :id => "auto_resizeimage")  %>
+       		</div>
+          
+       		<p>
+		         Young adult volunteers work one-on-one with participants as a big brother or a big sister, giving participants someone they can turn to in order to deal with common cultural ills. The effects of corruption, polygamy, family dysfunction, and gender inequality affects children in ways that adults are often unaware. 
+
+Group sessions are held to address the importance of maintaining physical health, specifically, awareness of HIV and AIDS. In many African families, the perception of the disease is that of shame, which causes families to avoid discussing the issue. BAGEP has a forum that provides awareness of available tests, information on healthy lifestyle habits, and an opportunity to openly discuss the disease. Our goal is to educate youth on prevention, early detection, and treatment of diseases like HIV and AIDS, as well as other sexually transmitted viruses.
+   
+      		</p> 
+      	
+      </div>
+
+      	<div class="please_text">
+	      	<p>Please fill out the form below and we'll get back to you shortly</p>
+	      	<%= render 'form', :inquiry => @inquiry %>
+
+
+    	</div>
+    </div> 
+
+
+
+    <div class="story_column colom_left right_colum">
+
+   		<div class=" group_story_element_box">
+
+       		<div class="all-div-box for_school_admin">
+				<div class="head">
+					<h4>FOR SCHOOL ADMINISTRATORS </h4>
+				</div>
+		
+			
+				<p>School administrators, are welcome to contact us for any inquiries. You can either fill out the form bellow or by calling this number 1 (240) 593 4462, Or by sending an email to  boysandgirlsempowermentprogram@gmail.com.	
+				Also feel free to visit our <%= link_to "Contact",  contact_path %> page for more info. Thanks for your time.
+				</P>
+				
+
+			</div>
+		</div>
+	</div>		
+
+			
+
+   
+
+   	
+
+   
+
+
+
+
+
+    
+    
+
+
+
+<div style="clear: left; margin-bottom: 35em"></div>
+
+</div>
+</div>
